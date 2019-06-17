@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBER EATS</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <meta name="description" content="Домашнє завдання №2. Адаптивна верстка сторінки ресторану з ubereats">
+
+
+</head>
+<body>
+<div class="section__wrapper">
+    <div class="section">
+
+        <header class="header">
+            <a class="header__logo" href="javascript:void(0)"><img class="header__logo-img" src="images/logo.png" alt="Uber Eats"></a>
+            <form class="header__delivery">
+                <label class="header__delivery-label">
+                    <input aria-label="when" class="header__delivery-info header__delivery-info--small" value="ASAP">
+                    <span class="header__delivery-text">to</span>
+                    <input aria-label="to" class="header__delivery-info header__delivery-info--long" type="text" value="ul. Bolshaya Dmitrov">
+                    <button class="header__delivery-button" type="submit">submit</button>
+                </label>
+
+            </form>
+            <div class="header__button">
+                <button class="header__button-wrapper" type="submit">Sign In</button>
+                <button class="header__button-wrapper header__button--main" type="submit">Register</button>
+                <a class="header__basket-link"><img alt="" src="images/basket.svg"/></a>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="banner__wrapper">
+                <h1 class="banner__title">Трактир «Пушкин»</h1>
+                <div class="banner__description">
+                    <div class="type-description">
+                        ₽₽₽ • Европейская
+                    </div>
+                    <div class="time-description">
+                        40 - 50 Min
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item nav__item--select">Закуски</li>
+                <li class="nav__item">Салаты</li>
+                <li class="nav__item">Супы</li>
+                <li class="nav__item">Горячие блюда</li>
+                <li class="nav__item">Гарниры</li>
+                <li class="nav__item">Десерты</li>
+            </ul>
+        </nav>
+        <div class="collection">
+            <h2 class="collection__title">
+                Закуски
+            </h2>
+            <div class="collection__wrapper">
+                <div class="collection__container">
+                    <div class="container-description">
+                        <div class="container__title">
+                            <span>Сельдь на бородинском хлебе</span>
+                            <span class="container__subtitle">С яйцом и огурцом</span>
+                        </div>
+                        <div class="container__price">
+                            240 ₽
+                        </div>
+                    </div>
+                    <div class="container-img">
+                        <img class="container-img__wrapper" alt="" src="images/bread.jpg"/>
+                    </div>
+
+                </div>
+                <div class="collection__container">
+                    <div class="container-description">
+                        <div class="container__title">
+                            Соленья ассорти
+                        </div>
+
+                        <div class="container__price">
+                            320 ₽
+                        </div>
+                    </div>
+
+                    <div class="container-img">
+                        <img class="container-img__wrapper" alt="" src="images/pickles.jpg" />
+                    </div>
+
+                </div>
+                <div class="collection__container">
+                    <div class="container-description">
+                        <div class="container__title">
+                            Грибы маринованные
+                        </div>
+
+                        <div class="container__price">
+                            300 ₽
+                        </div>
+                    </div>
+                    <div class="container-img">
+                        <img class="container-img__wrapper" alt="" src="images/mushrooms.jpg" />
+                    </div>
+                </div>
+                <div class="collection__container">
+                    <div class="container-description">
+                        <div class="container__title">
+                            Сало домашнее с горчицей
+                        </div>
+
+                        <div class="container__price">
+                            320 ₽
+                        </div>
+                    </div>
+                    <div class="container-img">
+                        <img class="container-img__wrapper" alt="" src="images/salo.jpg" />
+                    </div>
+                </div>
+                <div class="collection__container">
+                    <div class="container-description">
+                        <div class="container__title">
+                            Малосольная семга
+                        </div>
+
+                        <div class="container__price">
+                            390 ₽
+                        </div>
+                    </div>
+                    <div class="container-img">
+                        <img class="container-img__wrapper" alt="" src="images/fish.jpg" />
+                    </div>
+                </div>
+                <div class="collection__container">
+                    <div class="container-description">
+                        <div class="container__title">
+                            Язык говяжий с хреном
+                        </div>
+
+                        <div class="container__price">
+                            350 ₽
+                        </div>
+                    </div>
+                    <div class="container-img">
+                        <img class="container-img__wrapper" alt="" src="images/tongue.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a class="footer__logo"  href="javascript:void(0)"><img class="footer__logo-img" src="images/white-logo.png" alt="Uber Eats"></a>
+            <div class="footer__layout">
+                <div class="footer__layout--content social-sharing">
+                    <div class="social-sharing__language">
+                        <img class="social-sharing__language-img" src="images/world.svg" alt="">
+                        <select class="social-sharing__select-language">
+                            <option>English</option>
+                            <option>Українська мова</option>
+                        </select>
+                    </div>
+
+                    <a class="social-sharing__hashtag" href="javascript:void(0)">UberEats</a>
+                    <ul class="social-sharing__social-wrapper">
+                        <li class="social-sharing__icon"><a class="social-sharing__icon-link" href="javascript:void(0)"><img alt="facebook" class="social-sharing__social-wrapper--icon-img" src="images/facebook.png"/></a></li>
+                        <li class="social-sharing__icon"><a class="social-sharing__icon-link" href="javascript:void(0)"><img alt="twitter" class="social-sharing__social-wrapper--icon-img" src="images/twitter.png"/></a></li>
+                        <li class="social-sharing__icon"><a class="social-sharing__icon-link" href="javascript:void(0)"><img alt="instagram" class="social-sharing__social-wrapper--icon-img" src="images/instagram.png"/></a></li>
+                    </ul>
+                </div>
+                <ul class="footer__layout--content about-us">
+                    <li class="about-us__item"><a class="about-us__item-link" href="javascript:void(0)">About UberEats</a></li>
+                    <li class="about-us__item"><a class="about-us__item-link" href="javascript:void(0)">Become a Delivery Partner</a></li>
+                    <li class="about-us__item"><a class="about-us__item-link" href="javascript:void(0)">Become a Restaurant Partner</a></li>
+                </ul>
+
+                <ul class="footer__layout--content about-us">
+                    <li class="about-us__item"><a class="about-us__item-link" href="javascript:void(0)">See all cities</a></li>
+                    <li class="about-us__item"><a class="about-us__item-link" href="javascript:void(0)">Pricing</a></li>
+                    <li class="about-us__item"><a class="about-us__item-link" href="javascript:void(0)">Help</a></li>
+                    <li class="about-us__item"><a class="about-us__item-link" href="javascript:void(0)">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer__links">
+                <a class="footer__download-link">
+                    <img class="footer__download-link-img" alt="Download on the App Store" src="images/app_store.png"/>
+                </a>
+                <a class="footer__download-link footer__download-link--right">
+                    <img class="footer__download-link-img" alt="Get it on Google Play" src="images/google_play.png"/>
+                </a>
+            </div>
+
+            <ul class="footer__bottom">
+                <li class="footer__bottom--inner">© 2017 Uber Technologies Inc.</li>
+                <li class="footer__bottom--inner"><a href="javascript:void(0)" class="footer__bottom--inner-link">Privacy</a></li>
+                <li class="footer__bottom--inner"><a href="javascript:void(0)" class="footer__bottom--inner-link">Terms</a></li>
+            </ul>
+
+        </div>
+
+        <button class="button-up">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="25" viewBox="0 0 15 25" fill="none">
+                <path d="M7.48181 0.0326027L7.51556 0L15 7.2503L13.4301 8.70045L8.37571 3.87525V25H6.6221V3.84354L1.53441 8.70045L0 7.2503L7.4669 0L7.48224 0.0326027H7.48181Z" fill="white"/>
+            </svg>
+        </button>
+    </div>
+</div>
+</body>
+</html>
